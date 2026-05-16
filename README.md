@@ -17,11 +17,10 @@ A maior parte do código fonte da aplicação reside na pasta `/src`.
 Através da configuração estabelecida no `jsconfig.json`, é possível realizar importações absolutas a partir da raiz de `src`. Por exemplo:
 
 ```javascript
-// Em vez de: import Componente from '../../components/Componente';
 import Componente from '@/components/Componente';
 ```
 
-## 🛠️ Como executar o projeto
+## Como executar o projeto
 
 ### Pré-requisitos
 - Node.js instalado em sua máquina.
@@ -48,6 +47,6 @@ import Componente from '@/components/Componente';
    yarn start
    ```
 
-## 📝 Licença
+## Licença
 
 Este projeto é de uso livre. Desenvolvido por Lucas.
