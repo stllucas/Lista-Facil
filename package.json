@@ -1,8 +1,20 @@
 {
   "name": "lista-facil",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "Bem-vindo ao repositório do **Lista Fácil**, um aplicativo mobile desenvolvido para facilitar a criação, organização e o gerenciamento das suas listas do dia a dia (como listas de compras, tarefas e lembretes).",
+  "homepage": "https://github.com/stllucas/Lista-F-cil#readme",
+  "bugs": {
+    "url": "https://github.com/stllucas/Lista-F-cil/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stllucas/Lista-F-cil.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -52,6 +64,7 @@
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.5.2",
+    "firebase": "^12.13.0",
     "framer-motion": "^11.16.4",
     "html2canvas": "^1.4.1",
     "input-otp": "^1.4.2",
